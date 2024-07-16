@@ -305,10 +305,10 @@
                     },
                     {
                         "id": 3,
-                        "first_name": "إيما",
+                        "first_name": "لوكاس",
                         "last_name": "",
-                        "position_name": "مديرة الشفت النهاري",
-                        "phone": "+1 (973) 991-9818",
+                        "position_name": "مدير الشفت النهاري",
+                        "phone": "+1 (614) 809-1267",
                         "group_id": null
                     },
                     {
@@ -353,10 +353,10 @@
                     },
                     {
                         "id": 9,
-                        "first_name": "آنا",
+                        "first_name": "إيما",
                         "last_name": "",
                         "position_name": "مدير المجموعة",
-                        "phone": "+1 (929) 269-4682",
+                        "phone": "+1 (973) 991-9818",
                         "group_id": 5
                     },
                     {
@@ -629,8 +629,8 @@
             const team = managers.Data;
 
             const sections = {
-                lucas: team.filter(member => member.first_name === 'لوكاس'),
-                pmMembers: team.filter(member => member.position_name === 'مدير الشفت الليلي' || member.position_name === 'مديرة الشفت النهاري'),
+                lucas: team.filter(member => member.position_name === 'مدير البرنامج'),
+                pmMembers: team.filter(member => member.position_name === 'مدير الشفت الليلي' || member.position_name === 'مدير الشفت النهاري'),
                 adminAffairsMembers: team.filter(member => member.position_name === 'الشؤون الإدارية'),
                 legalMembers: team.filter(member => member.position_name === 'قانون'),
                 inspectionMembers: team.filter(member => member.position_name === 'تفتيش'),
